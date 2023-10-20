@@ -19,3 +19,9 @@
 > * Si no se trabaja en alguna Linux Distro, recomiendo bajar la aplicación de GitHub ([si, existe](https://desktop.github.com)) para poder interactuar más cómodamente.
 > * Si se hacen ediciones muy profundas, estaria ideal agregalas y organizarlas en contenidos
 >* Si no pescas este documento, no te preocupes, yo tampoco (probablemente se me olvide su existencia jeje).
+>
+> ## To Do List
+> - [ ] Agregar si se requiere alguna licensia (ej: MTI)
+> - [ ] Mas carpetas cuando se pueda (?, no se, se ve muy vacio)
+> - [ ] Organizar, de requerirse, la Wiki
+>
