@@ -1,13 +1,18 @@
+
+ <img src="Extras/duckietown_engineering_chile.png" width="160">.
+>
+> 
 > # Sistema de Detección de Polillas
 > 
 > 
 > ## Contenidos
-> 
+> - Extras: Archivos no relevantes en gran medida, ejemplo imagen de este documento
+>
 >  
 > ## Sobre el Documento
-> El respiratorio tendrá como principal función ser un medio para operar con git durante el proyecto.
-Acá se podrá editar, guardar y visualizar los códigos hechos de una manera más cómoda sin tener que editar el archivo base.
-Todos en el equipo tendrán roles para poder usar todas las herramientas del repositorio, si no las tienen, informar para otorgarlas lo antes posible
+> El respiratorio tendrá como principal función ser un medio para operar con git durante el proyecto. \
+> Acá se podrá editar, guardar y visualizar los códigos hechos de una manera más cómoda sin tener que editar el archivo base. \
+> Todos en el equipo tendrán roles para poder usar todas las herramientas del repositorio, si no las tienen, informar para otorgarlas lo antes posible
 > 
 > 
 > ## Algunos Detalles...
