@@ -1,7 +1,6 @@
-
- <img src="Extras/duckietown_engineering_chile.png" width="160">.
+# <img src="Extras/duckietown_engineering_chile.png" width="160">
 >
-> 
+>
 > # Sistema de Detección de Plagas de Polillas
 > 
 > 
