@@ -2,7 +2,7 @@
  <img src="Extras/duckietown_engineering_chile.png" width="160">.
 >
 > 
-> # Sistema de Detección de Polillas
+> # Sistema de Detección de Plagas de Polillas
 > 
 > 
 > ## Contenidos
