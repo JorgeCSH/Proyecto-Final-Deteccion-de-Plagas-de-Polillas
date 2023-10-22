@@ -21,7 +21,7 @@
 >* Si no pescas este documento, no te preocupes, yo tampoco (probablemente se me olvide su existencia jeje).
 >
 > ## Informacion imoortante:
-> * Hay un google drive para el prpyecto (por ahora),[haz click aqui para acceder a el](https://drive.google.com/drive/folders/18yWxrAzjXtWaV3S-6sPKqmq0Lv7i0GZJ?usp=share_link). Pidanme el acceso si es que se los pide.
+> * Hay un google drive para el prpyecto (por ahora), [haz click aqui para acceder a el](https://drive.google.com/drive/folders/18yWxrAzjXtWaV3S-6sPKqmq0Lv7i0GZJ?usp=share_link). Pidanme el acceso si es que se los pide.
 >
 > ## To Do List
 > - [ ] Agregar si se requiere alguna licensia (ej: MTI)
