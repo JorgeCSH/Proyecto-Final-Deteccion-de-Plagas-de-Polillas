@@ -1,0 +1,48 @@
+YOLOv8n-seg summary: 261 layers, 3263811 parameters, 3263795 gradients, 12.1 GFLOPs
+
+Transferred 381/417 items from pretrained weights
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/dtypes.py:513: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  np.object,
+WARNING ⚠️ TensorBoard not initialized correctly, not logging this run. module 'numpy' has no attribute 'object'.
+`np.object` was a deprecated alias for the builtin `object`. To avoid this error in existing code, use `object` by itself. Doing this will not modify any behavior and is safe. 
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+Freezing layer 'model.22.dfl.conv.weight'
+AMP: running Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt to 'yolov8n.pt'...
+100%|██████████████████████████████████████| 6.23M/6.23M [00:03<00:00, 1.75MB/s]
+AMP: checks passed ✅
+Traceback (most recent call last):
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/data/base.py", line 118, in get_img_files
+    assert im_files, f'{self.prefix}No images found in {img_path}'
+AssertionError: train: No images found in /home/duckiebot/Downloads/YOLODataset/labels/train
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duckiebot/.local/bin/yolo", line 8, in <module>
+    sys.exit(entrypoint())
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/cfg/__init__.py", line 445, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/engine/model.py", line 338, in train
+    self.trainer.train()
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/engine/trainer.py", line 190, in train
+    self._do_train(world_size)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/engine/trainer.py", line 286, in _do_train
+    self._setup_train(world_size)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/engine/trainer.py", line 251, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode='train')
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/models/yolo/detect/train.py", line 46, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/models/yolo/detect/train.py", line 40, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == 'val', stride=gs)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/data/build.py", line 80, in build_yolo_dataset
+    return YOLODataset(
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/data/dataset.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/data/base.py", line 72, in __init__
+    self.im_files = self.get_img_files(self.img_path)
+  File "/home/duckiebot/.local/lib/python3.8/site-packages/ultralytics/data/base.py", line 120, in get_img_files
+    raise FileNotFoundError(f'{self.prefix}Error loading data from {img_path}\n{HELP_URL}') from e
+FileNotFoundError: train: Error loading data from /home/duckiebot/Downloads/YOLODataset/labels/train
+See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
