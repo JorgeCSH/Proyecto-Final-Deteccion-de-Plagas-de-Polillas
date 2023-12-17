@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/Paulo/YOLODataset/train
+val: /content/drive/MyDrive/Paulo/YOLODataset/val
+test:
+nc: 1
+names: ["Cydia Pomonella"]
