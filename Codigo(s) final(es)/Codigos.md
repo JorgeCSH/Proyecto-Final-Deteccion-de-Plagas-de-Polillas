@@ -1,6 +1,7 @@
 > # Resultados
 > ## Contenidos
-> * Entrenamiento: _"Jupyter notebook"_ que contiene la implementacion del codigo encargado de la deteccion. Recomendado descargar y ejecutar en _"google colaboratory"_.
+> * Proyecto: Corresponde al sistema de deteccion de plagas utilizando _"yolov8"_.
+> * En desarrollo: Directorio con proyectos en desarrollo y que no presentan un grado de finalizacion.
 > 
 > ## Organizacion
-> Codigos nombrados y seccionados en _"jupyter notebook"_.
+> Codigo organizado en un _"jupyter notebook"_, de preferencia revisar en google colaboratory. Estos vienen junto a un script con la recompilacion de los codigos en caso de preferirse por sobre el formato original.
