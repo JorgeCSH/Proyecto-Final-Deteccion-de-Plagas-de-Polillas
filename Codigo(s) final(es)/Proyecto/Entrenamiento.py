@@ -64,7 +64,6 @@ conf: 'confiansa' en los resultados, cualquier valor menor al insertado se desca
 ########################################################################################################
 """
 Cualquier error ortografico, se omitieron caracteres como 'tildes' para evitar algun colapso en python.
-Cualquier comentario es bien recibido.
 """
 
 
