@@ -1,4 +1,4 @@
-# <img src="Extras/Configuracion repositorio/duckietown_engineering_chile.png" width="160">
+ # <img src="Extras/Configuracion repositorio/duckietown_engineering_chile.png" width="160"> <img src="Extras/Configuracion repositorio/neltume.png" width="80">
 >
 >
 > # Sistema de Detección de Plagas de Polillas
@@ -18,9 +18,9 @@
 >
 > ## Personal:
 > ### Desarrolladores:
-> * 
-> * 
-> * 
+> * Paulo Rojas 
+> * Vicente Sandoval
+> * Jorge Cummins
 > ### Agentes externos:
-> *
+> * Andres Sanhueza (Neltume)
 > 
